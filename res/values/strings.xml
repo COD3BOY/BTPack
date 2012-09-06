@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BTpackActivity!</string>
+    <string name="app_name">BTpack</string>
+    <string name="test">Search</string>
+    <string name="click">Click me to send!!</string>
+    <string name="connect">Connect</string>
+    <string name="run">RUN</string>
+    <string name="mouseMode">Mouse Mode</string>
+    <string name="search">Search</string>
+    <string name="clk">Click</string>
+    <string name="Initial">Initial</string>
+    <string name="keyboardmode">Keyboard Mode</string>
+    <string name="applicationmode">Application Mode</string>
+    <string name="utilities">Utilities</string>
+    <string name="A">A</string>
+
+    
+    <string name="mousemode">Mouse mode</string>
+    <string name="initial">Initial</string>
+    <string name="message">Message...</string>
+    <string name="created">Lovingly created by Sanjay...</string>
+    <string name="proceed">Proceed to app..!</string>
+</resources>

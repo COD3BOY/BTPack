@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.snr9"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+     <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:name=".MyApplication" 
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".InitialActivity"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".BTpackActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".BluetoothActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".MousemodeActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".ApplicationActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".keyboardActivity"
+            android:noHistory="true" 
+           >
+        </activity>
+        <activity
+            android:name=".utilitiesActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".utilitymsgActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".utilityrunActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".browserActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".mediaplayerActivity"
+            android:noHistory="true" >
+        </activity>
+          <activity
+            android:name=".presentationActivity"
+            android:noHistory="true" >
+        </activity>
+    </application>
+
+</manifest>
